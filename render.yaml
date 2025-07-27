@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: stripe-api
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: STRIPE_SECRET_KEY
+        sync: false

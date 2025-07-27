@@ -1,0 +1,24 @@
+{
+  "name": "stripe-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.50.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mime-db": "^1.54.0",
+    "mime-types": "^3.0.1",
+    "multer": "^2.0.2",
+    "serverless-http": "^3.2.0",
+    "stripe": "^18.2.1"
+  }
+}
