@@ -7,7 +7,7 @@ require('dotenv').config();
 const app = express();
 
 app.use(cors({
-  origin: ['https://drom-banput.vercel.app','http://localhost:8080'],
+  origin: ['https://dromcws.vercel.app','http://localhost:8080'],
   methods: ['GET', 'POST', 'PUT']
 }));
 
